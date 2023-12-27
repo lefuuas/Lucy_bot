@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.edit {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}

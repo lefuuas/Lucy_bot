@@ -1,0 +1,90 @@
+/* Estilo para a tabela */
+table {
+    width: 70%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 30px;
+  }
+  
+  /* Estilo para o cabeçalho da tabela */
+  th {
+    background-color: #9c88ff;
+    
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #9c88ff;
+  }
+  
+  /* Estilo para as células da tabela */
+  td {
+    background-color: #f5f6fa;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilização das linhas ímpares */
+  tr:nth-child(odd) {
+    background-color: #e0e0e0;
+  }
+  
+  /* Estilização das células de cabeçalho na primeira linha */
+  tr:first-child th {
+    border-top: 0;
+  }
+  
+  /* Estilização das células de cabeçalho na última linha */
+  tr:last-child th {
+    border-bottom: 2px solid #9c88ff;
+  }
+  
+  /* Estilização das células na última coluna */
+  td:last-child {
+    border-right: 2px solid #9c88ff;
+  }
+  
+  /* Estilização das células na primeira coluna */
+  td:first-child {
+    border-left: 2px solid #9c88ff;
+  }
+  
+  /* Estilo para hover */
+  tr:hover {
+    background-color: #c7c7c7;
+  }
+  
+  /* Estilo para foco */
+  tr:focus {
+    background-color: #9c88ff;
+    color: white;
+  }
+  
+  /* Estilo para a borda exterior da tabela */
+  table {
+    border: 2px solid #9c88ff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilização das células de status */
+  td.status {
+    font-weight: bold;
+    color: #2ecc71; /* Cor para status "Ativo" */
+  }
+  
+  /* Estilização das células de contato */
+  td.contato {
+    color:  white; /* Cor para informações de contato */
+  }
+  
+
+  td.ativo {
+    color: #2ecc71; /* Verde */
+  }
+  
+  /* Estilo para status "Inativo" */
+  td.inativo {
+    color: #e74c3c; /* Vermelho */
+  }

@@ -1,0 +1,125 @@
+.add-button{
+    position: relative;
+    left: 70%;
+    z-index: 1;
+}
+
+.container-actions{
+
+    position: relative;
+    top: 0em;
+    width: 82%;
+    margin-top: 4em;
+    left: 2%;
+
+}
+.title-forms{
+    position: relative;
+    left: 2%;
+
+}
+.section-edit-itens{
+
+    display: flex;
+
+}
+.container-actions hr{
+    width: 40%;
+    position: relative;
+    margin-top: 1%;
+  }
+  
+.search-container{
+    
+    position: absolute;
+    
+    left: 2%;
+}
+
+@media (max-width: 1200px) {
+
+    .add-button{
+        position: relative;
+        left: 70%;
+        z-index: 1;
+    }
+    
+    .container-actions{
+    
+        position: relative;
+        top: 0em;
+        width: 100%;
+        margin-top: 4em;
+        left: 0%;
+    
+    }
+    .title-forms{
+        position: relative;
+        left: 2%;
+    
+    }
+    .section-edit-itens{
+    
+        display: flex;
+    
+    }
+    .container-actions hr{
+        width: 40%;
+        position: relative;
+        margin-top: 1%;
+      }
+      
+    .search-container{
+        
+        position: absolute;
+        
+        left: 2%;
+    }
+
+
+
+}
+
+@media (max-width: 700px) {
+
+    .add-button{
+        position: relative;
+        left: 70%;
+        z-index: 1;
+    }
+    
+    .container-actions{
+    
+        position: relative;
+        top: 0em;
+        width: 100%;
+        margin-top: 4em;
+        left: 0%;
+    
+    }
+    .title-forms{
+        position: relative;
+        left: 2%;
+    
+    }
+    .section-edit-itens{
+    
+        display: flex;
+    
+    }
+    .container-actions hr{
+        width: 40%;
+        position: relative;
+        margin-top: 1%;
+      }
+      
+    .search-container{
+        
+        position: absolute;
+        
+        left: 2%;
+    }
+
+
+
+}
